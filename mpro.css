@@ -25,7 +25,7 @@
     font-weight: bold;
     text-decoration: none;
     font-size: 25px;
-    background-color: antiquewhite;
+    background-color: rgb(235, 181, 110);
 }
 .head1{
     padding: 80px;
@@ -50,11 +50,6 @@
     background-color:darkslategray
 }
 
-section .books iframe{
-    display: flex;
-    justify-content: space-between;
-    float: left;
-}
 section .books{
     overflow: hidden;
 }
@@ -80,6 +75,19 @@ section .books{
     border-radius: 50%;
 }
 .books img{
-    
-    margin: 12px;
+    margin: 25px;
 }
+.notes img {
+    border: 2px solid black;
+}
+.notes a{
+    padding: 10px;
+    margin-left: 8px;
+}
+section:nth-child(odd){
+    background-color: rgba(19, 239, 210, 0.085);
+}
+section:nth-child(even){
+    background-color: rgba(250, 227, 215, 0.351);
+}
+
